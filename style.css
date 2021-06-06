@@ -1,0 +1,110 @@
+.topnav{text-align: left;
+    overflow: hidden;
+    color: black;
+   /* background-image: url("project-2.jpg");*/
+  
+  }
+  .topnav a {
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    
+  } 
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+ 
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;}
+
+  .Contact a:hover {
+      background-color:chartreuse;
+      color: black;
+    }
+   
+  .Contact a.active {
+      background-color: #04AA6D;
+      color: white;
+  }
+
+  
+  h1{text-align: center;
+  color:rgb(0, 4, 7);}
+  h3{color: black;
+    font-family:Arial, Helvetica, sans-serif ;
+    }
+  
+  body{
+    background-image: url("pic\ 6.jpg"); 
+      background-size:100%; }
+
+     .accordion {
+      background-color:grey;
+      color:white;
+      cursor: pointer;
+      padding: 18px;
+      width: 100%;
+      text-align: left;
+      border: none;
+      outline: none;
+      transition: 0.4s;
+    }
+
+    .active, .accordion:hover {
+      background-color: #ccc;
+    }
+    img {width: 15%;
+      padding-left: 1050px;
+      padding-top: 20px;}
+    
+    span{
+      color:chartreuse;
+    }
+    .panel {
+      padding: 0 18px;
+      color: /*rgb(228, 212, 201);*/ chartreuse;
+      background-image: url("pic\ 6.jpg");
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.1s ease;
+    }
+
+  
+
+    footer{text-align:center;
+      color: black
+   ;}
+   a:link{
+     color:black;
+   }
+   a.visited{
+     color:red;
+   }
+   a.hover{
+     color:green;
+     background-color: rgb(31, 74, 85);
+   }
+
+  .Contact a{
+    color:rgb(0, 0, 0)
+  }
+  .panel a{
+    color:rgb(228, 212, 201);
+  }
+
+  h4{
+    font-style: italic;
+    color:brown;
+
+  }
+   
+   
+
+   
+
+  

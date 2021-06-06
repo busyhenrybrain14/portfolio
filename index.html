@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- Site CSS -->
+     <link rel="stylesheet" href="style.css">
+    <title>My Profile</title>
+</head>
+
+<nav class="topnav"> 
+    <a href="#Contact"><b>Corporate Links</b> </a>
+    <a href="#Henry's Projects"><b>Henry's Projects</b></a>
+    <a href="#About Henry"><b>About Henry</b></a><br>
+    <img src="profile-picture.png">
+</nav>
+<body>
+    <div id="About Henry">
+     <h1>About <span><b>Henry</b></span></h1>
+    <button class="accordion"><h3>Profile (click)</h3></button>
+    <div class="panel">
+        <p> <li>A Versatile Engineering Graduate, an IT Enthusiat.</li>
+            <li>Always ready to learn, explore and try new things</li>
+            <li>Passionate about implementing and launching new projects</li>
+            <li>Proficient in HTML5, CSS, JS, GITHUB, CI/CD, DEVOPS and IBM Cloud Computing technologies</li>
+            <li>A Self Taught Developer, Looking to start a career as an Entry level Developer with a reputed firm driven by technology</li>
+        </p>
+    </div>
+    </div>   
+    <button class="accordion"><h3> Education & Courses (click)</h3></button> 
+    <div class="panel">
+         <p>
+             <h4><b>Education</b></h4>
+            <li>European Diploma In I.T Development(Baltic Institute of Technology,
+                 Lithuania)
+            </li>
+            <li>Higher National Diploma(Electrical electronics engineering)
+                Grade(Distinction 3.65/4.00)
+            </li>
+            <h4><b>Online Courses</b></h4>
+            <li>Introduction to IBM cloud development with Html, Css & jS</li>
+            <li>Introduction to IBM Cloud Computing</li>
+            <li>Developing Cloud Native Application on IBM cloud</li>
+            <li>Developing Cloud Applications with Node jS. and React</li>
+         </p>
+    </div>
+    <button class="accordion"><h3>Accomplishments & Certifications (click)</h3></button>
+    <div class="panel">
+         <p>
+            <li>IBM Certified Associate Cloud Solutions Advisor</li>
+            <li>IBM Full Stack Cloud Development Professional Certification</li>
+            <li>IBM Cloud Application Development Specialization</li> 
+            <li>British Project Management Academy (Project Management Professional)</li>
+         </p>
+    </div>
+    <button class="accordion"><h3>Skill sets (click)</h3></button>
+    <div class="panel">
+         <p>
+            <li>Front-End Development Technologies(HTML5,CSS,JS)</li>
+            <li>IBM Cloud Development Technologies</li>
+            <li>Content Integration/Content Delivery(CI/CD)</li>
+            <li>Devops</li> 
+            <li>Project Managment</li>
+            <li>Team Work</li>
+            <li>Presentation</li>        
+         </p>
+    </div>
+    </div>
+    <h1>Experience</h1>
+    <button class="accordion"><h3>Job Roles (click)</h3></button>
+    <div class="panel">
+       <p><h4>Project Support Specialist for Siemens & Wago(Gil Automations)</h4></p>
+       <li> Deliver OEM(Original Equipment Manufacturers) Demo Product Training
+            to Engineers and Account Managers
+       </li>
+       <li>Supported leads on product based projects</li>
+       <li>Facilitated install base audit with customers</li>
+       <li>Stratigised with OEMs/Account Managers on meetings, presentations 
+           to set-up and generate leads from customers </li>
+        <li>Converted Requisitions to POs(Purchase orders) to meet up OEM targets</li>
+        <li>Stratigised on Business proposals, planning to improve sales of OEM products</li> 
+        <li>Collaborate with Technical Team/Engineers to develop Technical Proposals and designs that 
+            would meet customers expectations.
+        </li>
+        <li>Providing Solution based products to customers by understanding the pain-points and what drives customers needs.</li>
+        <p><h4>My Portfolio</h4></p>
+    </div>
+    </div>
+    <div id="Henry's Projects">
+    <h1>Henry's Projects</h1>
+    <button class="accordion"><h3>Henry's Projects (click)</h3></button>
+    <div class="panel">
+        <p>
+         <li><a href="https://busyhbrain.github.io/My-first-calculator/" target="_blank">Simple Intersest Calculator</a></li>
+         <li><a href="">Simple Interest Calculator</a></li>
+         <li><a href="">Simple Interest Calculator</a></li>
+        </p>
+    </div>
+    </div>
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+        
+        for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.maxHeight) {
+              panel.style.maxHeight = null;
+            } else {
+              panel.style.maxHeight = panel.scrollHeight + "px";
+            } 
+          });
+        }
+        </script>     
+</body>
+<h1>Corporate Links & Address</h1>
+<footer>
+    <nav id="Contact">
+    <nav class="Contact">
+    <a href="mailto:henryadelani@gmail.com"><b>Gmail Address</b></a>
+    <a href="https://www.linkedin.com/in/henry-adelani-863156a0?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BbGSkZNZyQV6ZYI%2BwWtfRqw%3D%3D" target="_blank"><b>Linkedin Page</b></a>
+    <a href="https://github.com/busyhbrain" target="_blank"><b>Github Page</b></a>
+    </nav>
+    </nav>
+    <br>
+    
+    Copyright@henry 2021
+</footer>
+
+</html>
