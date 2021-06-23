@@ -71,7 +71,7 @@
     .panel {
       padding: 0 18px;
       color: /*rgb(228, 212, 201);*/ whitesmoke;
-      background-image: url("Designs1_02.jpg");
+      background-image: url("https://github.com/busyhbrain/portfolio/blob/main/Designs1_02.jpg");
       max-height: 0;
       overflow: hidden;
       transition: max-height 0.1s ease;
